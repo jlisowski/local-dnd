@@ -1,0 +1,39 @@
+body {
+  font-family: IBM Plex Mono;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.campaign-cover-art {
+  width: 10vw;
+}
+
+.login-container {
+  margin: auto;
+  margin-top: 4rem;
+  max-width: 20vw;
+}
+
+.register-container {
+  margin: auto;
+  margin-top: 4rem;
+  max-width: 20vw;
+}
+
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  max-width: 500px;
+}
+
+.slide-right h4 {
+  animation: 0.333s slide-right 0.333s forwards;
+  transform: translateY(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform: translateY(0);
+  }
+}
