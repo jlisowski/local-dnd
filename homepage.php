@@ -36,7 +36,7 @@ if (!isset($_SESSION["logged_in"])) {
           <li>Krittlestiks</li>
           <li>Onikaan Syn</li>
           <li>Sylas Fellspark</li>
-          <li></li>
+          <li>Wylie Snare</li>
         </ul>
       </div>
     </div>
