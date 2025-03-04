@@ -23,7 +23,6 @@ if (!isset($_SESSION["logged_in"])) {
 
 <body>
   <div class="text-success text-start">[<?php echo $_SESSION["username"] ?>]</div>
-  <p>:LOOT:</p>
   <div class="d-flex justify-content-center">
     <div class="w-50 border border-primary d-flex text-start">
       <img class="campaign-cover-art m-3" src="./assets/yawning_portal.webp" alt="Tales of the Yawning Portal Cover Art">
@@ -40,6 +39,10 @@ if (!isset($_SESSION["logged_in"])) {
         </ul>
       </div>
     </div>
+  </div>
+  <div class="loot-container mt-4">
+    <p>:LOOT:</p>
+    <p>Work in progress...</p>
   </div>
 </body>
 

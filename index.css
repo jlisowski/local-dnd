@@ -21,18 +21,18 @@ body {
   max-width: 20vw;
 }
 
-.slide-right {
+.slide-top {
   width: 100%;
   overflow: hidden;
   max-width: 500px;
 }
 
-.slide-right h4 {
-  animation: 0.333s slide-right 0.333s forwards;
+.slide-top h4 {
+  animation: 0.333s slide-top 0.333s forwards;
   transform: translateY(-100%);
 }
 
-@keyframes slide-right {
+@keyframes slide-top {
   to {
     transform: translateY(0);
   }

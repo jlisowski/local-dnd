@@ -15,7 +15,7 @@
 
 <body>
   <div class="register-container">
-    <div class="slide-right mb-3">
+    <div class="slide-top mb-3">
       <?php if (isset($_GET["reg_accepted"])) {
         echo '<h4 class="login-console text-success">Email accepted, but this doesn\'t work... yet.</h4>';
       } elseif (isset($_GET["invalid_email"])) {

@@ -15,7 +15,7 @@
 
 <body>
   <div class="login-container">
-    <div class="slide-right mb-3">
+    <div class="slide-top mb-3">
       <?php if (isset($_GET["login_failed"])) {
         echo '<h4 class="login-console text-danger">Invalid Credentials</h4>';
       } else {

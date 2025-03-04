@@ -2,9 +2,9 @@
 class Dbh
 {
   private $host = "localhost";
-  private $dbname = "testDb1";
-  private $dbuser = "testbird";
-  private $dbpass = "KwSMyg3aks2fCoaV";
+  private $dbname = "dnd";
+  private $dbuser = "dnd";
+  private $dbpass = "qsWB!yK5wGMuuMyL";
 
   protected function connect()
   {
