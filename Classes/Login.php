@@ -30,7 +30,7 @@ class Login extends Dbh
       } elseif (password_verify($this->password, $userData["password"])) {
         $_SESSION["logged_in"] = 1;
         $_SESSION["username"] = $this->username;
-        header("Location: ../homepage.php");
+        header("Location: ../loot.php");
       } else {
         echo "INVALID PWD";
         //increase invalid attempts
